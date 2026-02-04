@@ -3,13 +3,11 @@
 **Developed by Md. Salauddin Sarker**
 [salauddinsarker.com](https://salauddinsarker.com/)
 
-A simple, robust Python calculator designed to be understandable for a 5th-grade student while including unique features and professional error handling.
 
 ## Features
 
 - **Basic Math**: Addition, Subtraction, Multiplication, and Division.
 - **Advanced Math**: Remainder (Modulo) and Power (Exponents).
-- **Study Buddy Mode**: Instantly generates Multiplication Tables (1-10).
 - **Memory**: Keeps a history of all calculations performed during the session.
 - **Crash Protection**: Uses `try-except` blocks to handle non-numeric inputs gracefully.
 
