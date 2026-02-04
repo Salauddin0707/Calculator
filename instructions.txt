@@ -1,0 +1,29 @@
+# How to Run on Linux
+
+This guide explains how to run the `calculator.py` script on a Linux terminal.
+
+## 1. Requirements
+- Python 3 installed on your system.
+
+## 2. Installation (if needed)
+Most Linux distributions come with Python 3 pre-installed. To check, run:
+```bash
+python3 --version
+```
+
+If it is not installed, use your package manager:
+- **Ubuntu/Debian**: `sudo apt update && sudo apt install python3`
+
+## 3. Dependencies
+This script uses standard Python libraries only. No external dependencies are required.
+
+## 4. How to Run
+1. Open your terminal.
+2. Navigate to the folder where `calculator.py` is saved.
+3. Run the following command:
+```bash
+python3 calculator.py
+```
+
+## 5. Compilation
+Python is an interpreted language, so no compilation steps are required.
