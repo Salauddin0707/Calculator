@@ -34,7 +34,6 @@ A simple, robust Python calculator designed to be understandable for a 5th-grade
 
 ## 📝 Learning Concepts
 This project demonstrates:
-- **Data Types**: Converting User Inputs (Strings) to Numbers (Floats).
 - **Control Flow**: Loops (`while`) and Conditional Logic (`if/elif/else`).
 - **Error Handling**: Using `try/except` to prevent program crashes.
 - **Lists**: Storing and displaying a history of items.
