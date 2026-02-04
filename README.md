@@ -5,7 +5,7 @@
 
 A simple, robust Python calculator designed to be understandable for a 5th-grade student while including unique features and professional error handling.
 
-## ✨ Features
+## Features
 
 - **Basic Math**: Addition, Subtraction, Multiplication, and Division.
 - **Advanced Math**: Remainder (Modulo) and Power (Exponents).
@@ -13,7 +13,7 @@ A simple, robust Python calculator designed to be understandable for a 5th-grade
 - **Memory**: Keeps a history of all calculations performed during the session.
 - **Crash Protection**: Uses `try-except` blocks to handle non-numeric inputs gracefully.
 
-## 🚀 How to Run
+## How to Run
 
 ### Requirement
 - Python 3.x installed.
@@ -26,7 +26,7 @@ A simple, robust Python calculator designed to be understandable for a 5th-grade
    python calculator.py
    ```
 
-## 🛠 Project Structure
+## Project Structure
 - `calculator.py`: The main program file (under 100 lines).
 - `instructions.txt`: Detailed steps for running on a Linux Terminal.
 - `README.md`: Project documentation.
