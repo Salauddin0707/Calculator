@@ -29,13 +29,12 @@ while True:
     print("4. Divide")
     print("5. Remainder")
     print("6. Power")
-    print("7. Multiplication Table")
-    print("8. View History")
-    print("9. Quit")
+    print("7. View History")
+    print("8. Quit")
 
-    choice = input("Choose a number from 1 to 9: ")
+    choice = input("Choose a number from 1 to 8: ")
 
-    if choice == '9':
+    if choice == '8':
         print("See you next time!")
         break
 
@@ -69,11 +68,6 @@ while True:
                 print("Answer:", result)
                 history.append(str(num1) + " ** " + str(num2) + " = " + str(result))
         elif choice == '7':
-            num = float(input("Enter a number to see its table: "))
-            for i in range(1, 11):
-                print(num, "x", i, "=", num * i)
-            history.append("Table for " + str(num))
-        elif choice == '8':
             print("\n--- History ---")
             for item in history:
                 print(item)
@@ -83,8 +77,3 @@ while True:
             print("Oops! That choice is not on the list. Try again.")
     except ValueError:
         print("Invalid input! Please enter a numeric value for numbers.")
-
-
-
-
-
